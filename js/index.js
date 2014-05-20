@@ -146,7 +146,7 @@ var mapObject = {
 		var map, markers = [], openInfoWindow, bounds = new google.maps.LatLngBounds();
 		$('div#mapCanvas').css({'height': heightBody - (heightBody/2) + 10 + 'px'});
 		var markers = [];
-		var latlng = new google.maps.LatLng(43.978518, 15.383649);
+		var latlng = new google.maps.LatLng(33.761632, -84.385621);
 		var myOptions = {
 			zoom: 16,
 			center: latlng,
@@ -165,10 +165,10 @@ var mapObject = {
 	getMarkers: function(){
 		//Set a hardcoded marker
 		mapObject.addMarker(
-			'43.978518',
-			'15.383649',
+			'33.761632',
+			'-84.385621',
 			'Contact',
-			'<h3>Contact me</h3><br><p>I am at this heart shaped island.</p>',
+			'<h3>Contact me</h3><br><p>Atlanta Marriot Marquis</p>',
 			1,
 			false);
 		$btnLocation.show();

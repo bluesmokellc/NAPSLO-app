@@ -167,7 +167,7 @@ var mapObject = {
 		mapObject.addMarker(
 			'33.761632',
 			'-84.385621',
-			'Contact',
+			'Location',
 			'<h3>Contact me</h3><br><p>Atlanta Marriot Marquis</p>',
 			1,
 			false);

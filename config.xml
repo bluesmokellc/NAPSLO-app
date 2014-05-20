@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.coconnect.napslo" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>NAPSLO</name>
+    <name>NAPSLO'14</name>
     <description>
         App for the NAPSLO 2014 Convention
     </description>

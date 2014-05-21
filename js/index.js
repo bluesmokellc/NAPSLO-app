@@ -109,8 +109,12 @@ function menu(option){
 	}
 	else if(option == 2){
 		$btnLocation.hide();
-		setTitle('About Us');
+		setTitle('Schedule');
 		myScroll.enable();
+		$( "#tabs" ).tabs();
+		$( "#accordion1" ).accordion({collapsible: true});
+		$( "#accordion2" ).accordion({collapsible: true, heightStyle: "content"});
+		$( "#accordion3" ).accordion({collapsible: true, heightStyle: "content"});
 	}
 	else if(option == 3){
 		$btnLocation.hide();

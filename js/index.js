@@ -109,7 +109,7 @@ function menu(option){
 	}
 	else if(option == 2){
 		$btnLocation.hide();
-		setTitle('Schedulle');
+		setTitle('Schedule');
 		myScroll.enable();
 		$( "#tabs" ).tabs();
 		$( "#accordion1" ).accordion({collapsible: true});

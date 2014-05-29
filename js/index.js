@@ -118,7 +118,7 @@ function menu(option){
 	}
 	else if(option == 3){
 		$btnLocation.hide();
-		setTitle('Blog');
+		setTitle('Newsfeed');
 		myScroll.enable();
 	}
 	else if(option == 4){
@@ -128,8 +128,13 @@ function menu(option){
 		var myPhotoSwipe = Code.PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), { enableMouseWheel: false , enableKeyboard: false } );
 	}
 	else if(option == 5){
-		setTitle('Contact');
+		setTitle('Map');
 		mapObject.init();
+		console.log("hello map");
+		$( "#tabsmap" ).tabs();
+	}
+	else if(option == 6){
+		setTitle('Floorplan');
 	}
 
 	//Refresh of the iScroll plugin
